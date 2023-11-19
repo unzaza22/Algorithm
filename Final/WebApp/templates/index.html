@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+    <style>
+        table {
+            width: 80%; /* ตั้งค่าความกว้างของตารางให้เต็มหน้า */
+            border-collapse: collapse; /* ลบเส้นรอยต่อระหว่างเซลล์ */
+        }
+        th, td {
+            text-align: center; /* จัดให้ข้อความอยู่ตรงกลาง */
+            padding: 8px; /* เพิ่มพื้นที่รอบข้อความ */
+        }
+        /* สไตล์เพิ่มเติมถ้าต้องการ */
+
+        /* จัดศูนย์แบบฟอร์มและปุ่ม */
+        .form-container {
+            text-align: center;
+            margin-top: 20px; /* หรือจำนวนที่คุณต้องการ */
+        }
+        .form-container input[type="text"] {
+            width: 200px; /* หรือความกว้างที่คุณต้องการ */
+            padding: 10px;
+            margin: 5px 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form-container label {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .form-container input[type="submit"] {
+            width: 100px; /* ปรับความกว้างของปุ่มให้เล็กลง */
+            padding: 5px; /* ปรับพื้นที่ในตัวปุ่มให้เล็กลง */
+            font-size: 0.8em; /* ปรับขนาดของข้อความในปุ่ม */
+            margin-top: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Dictionary</h1>
+    <table border="1">
+        <tr>
+            <th>English Word</th>
+            <th>Thai Translation</th>
+            <th>Part of Speech</th>
+        </tr>
+        {% for word, details in dictionary.items() %}
+        <tr>
+            <td>{{ word }}</td>
+            <td>{{ details['Thai'] }}</td>
+            <td>{{ details['Part of speech'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <!-- ฟอร์ม -->
+    <div class="form-container">
+        <form action="/add_word" method="post">
+            <div>
+                <label for="english_word">English Word:</label>
+                <input type="text" id="english_word" name="english_word" required>
+            </div>
+            <div>
+                <label for="thai_translation">Thai Translation:</label>
+                <input type="text" id="thai_translation" name="thai_translation" required>
+            </div>
+            <div>
+                <label for="part_of_speech">Part of Speech:</label>
+                <input type="text" id="part_of_speech" name="part_of_speech" required>
+            </div>
+            <input type="submit" value="Add Word">
+        </form>
+    </div>
+</body>
+</html>

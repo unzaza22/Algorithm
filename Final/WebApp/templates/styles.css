@@ -1,0 +1,25 @@
+.form-right {
+  float: right;
+}
+
+.form-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center; /* จัดกลางแนวนอน */
+  align-items: center; /* จัดกลางแนวตั้ง ถ้าต้องการ */
+}
+
+.grid-container {
+  display: grid;
+  place-items: center;
+}
