@@ -69,18 +69,18 @@ write (verb): เขียน
 
 ## คำสั่ง command-line
 กด 1. Add a new word : เพิ่มคำศัพท์
-|---------------------------------|
-| Enter choice: 1                 |
-| Enter English word: rabbit      |
-| Enter Thai translation: กระต่าย  |
-| Enter word type: noun           |
-| Word added successfully.        |
+|--------------------------------------------------------|
+| Enter choice: 1                                        |
+| Enter English word: rabbit                             |
+| Enter Thai translation: กระต่าย                         |
+| Enter word type: noun                                  |
+| Word added successfully.                               |
 
 กด 2. Find a word : ค้นหาคำศัพท์
-|------------------------------------|
-| Enter choice: 2                    |
-| Enter English word to find: rabbit |
-| rabbit (noun): กระต่าย              |
+|--------------------------------------------------------|
+| Enter choice: 2                                        |
+| Enter English word to find: rabbit                     |
+  | rabbit (noun): กระต่าย                                |
 
 กด 3. Update a word : แก้ไขคำศัพท์
 |--------------------------------------------------------|
@@ -91,23 +91,31 @@ write (verb): เขียน
 | Word updated successfully.                             |
 
 กด 4. Delete a word : ลบคำศัพท์
-|--------------------------------------|
-| Enter choice: 4                      |
-| Enter English word to delete: rabbit |
-| Word deleted successfully.           |
+|--------------------------------------------------------|
+| Enter choice: 4                                        |
+| Enter English word to delete: rabbit                   |
+| Word deleted successfully.                             |
 
 กด 5. Display all words : แสดงคำศัพท์ทั้งหมด
-|---------------------------------|
-| Enter choice: 5                 |
-| apple (noun): แอปเปิ้ล            |
-| banana (noun): กล้วย             |
-| beautiful (adjective): สวย      |
-| book (noun): หนังสือ              |
-| cold (adjective): หนาว          |
+|--------------------------------------------------------|
+| Enter choice: 5                                        |
+| apple (noun): แอปเปิ้ล                                   |
+| banana (noun): กล้วย                                    |
+| beautiful (adjective): สวย                             |
+| book (noun): หนังสือ                                     |
+| cold (adjective): หนาว                                 |
 
 กด 6. Find next word : ค้นหาคำศัพที่อยู่ถัดไป เช่น คำศัพท์ถัดไปของ hello คือ hope
+|--------------------------------------------------------|
+| Enter choice: 6                                        |
+| Enter English word to find the next: hello             |
+| Next word: hope (noun): ความหวัง                        |
 
 กด 7. Find previous word : ค้าหาคำศัพท์ที่อยู่ก่อนหน้า เช่น คำศัพท์ที่อยู่ก่อนหน้า hello คือ happy
+|--------------------------------------------------------|
+| Enter choice: 7                                        |
+| Enter English word to find the previous: hello         |
+| Previous word: happy (adjective): มีความสุข              |
 
 กด 8. Exit : ออกจาก command-line
 
