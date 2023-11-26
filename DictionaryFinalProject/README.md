@@ -69,7 +69,7 @@ write (verb): เขียน
 
 ## คำสั่ง command-line
 กด 1. Add a new word : เพิ่มคำศัพท์
-
+|---------------------------------|
 | Enter choice: 1                 |
 | Enter English word: rabbit      |
 | Enter Thai translation: กระต่าย  |
