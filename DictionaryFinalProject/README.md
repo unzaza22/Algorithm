@@ -83,6 +83,12 @@ write (verb): เขียน
 | rabbit (noun): กระต่าย              |
 
 กด 3. Update a word : แก้ไขคำศัพท์
+|--------------------------------------------------------|
+| Enter choice: 3                                        |
+| Enter English word to update: rabbit                   |
+| Enter new Thai translation (press enter to skip): ต่าย  |
+| Enter new word type (press enter to skip): Noun        |
+| Word updated successfully.                             |
 
 กด 4. Delete a word : ลบคำศัพท์
 
