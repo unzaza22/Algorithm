@@ -24,18 +24,18 @@ class นี้จะเป็นตัว algorithm ในการทำงา
 **previous** จะค่าหาค่าที่น้อยกว่าค่าของตัวเอง แต่มากที่สุดของ Node เพื่อค้นหาค่าของ key ที่อยู่ก่อนหน้าจาก key ที่ต้องการ
 
 ## คำสั่ง command-line
-กด 1. Add a new word 
+กด 1. Add a new word : เพิ่มคำศัพท์
 
-กด 2. Find a word
+กด 2. Find a word : ค้นหาคำศัพท์
 
-กด 3. Update a word
+กด 3. Update a word : แก้ไขคำศัพท์
 
-กด 4. Delete a word
+กด 4. Delete a word : ลบคำศัพท์
 
-กด 5. Display all words
+กด 5. Display all words : แสดงคำศัพท์ทั้งหมด
 
-กด 6. Find next word
+กด 6. Find next word : ค้นหาคำศัพที่อยู่ถัดไป เช่น คำศัพท์ถัดไปของ hello คือ hope
 
-กด 7. Find previous word
+กด 7. Find previous word : ค้าหาคำศัพท์ที่อยู่ก่อนหน้า เช่น คำศัพท์ที่อยู่ก่อนหน้า hello คือ happy
 
-กด 8. Exit
+กด 8. Exit : ออกจาก command-line
