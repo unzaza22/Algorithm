@@ -23,3 +23,12 @@ class นี้จะเป็นตัว algorithm ในการทำงา
 
 **previous** จะค่าหาค่าที่น้อยกว่าค่าของตัวเอง แต่มากที่สุดของ Node เพื่อค้นหาค่าของ key ที่อยู่ก่อนหน้าจาก key ที่ต้องการ
 
+## คำสั่ง command-line
+1. Add a new word
+2. Find a word
+3. Update a word
+4. Delete a word
+5. Display all words
+6. Find next word
+7. Find previous word
+8. Exit
