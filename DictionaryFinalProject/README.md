@@ -77,6 +77,10 @@ write (verb): เขียน
 | Word added successfully.        |
 
 กด 2. Find a word : ค้นหาคำศัพท์
+|------------------------------------|
+| Enter choice: 2                    |
+| Enter English word to find: rabbit |
+| rabbit (noun): กระต่าย              |
 
 กด 3. Update a word : แก้ไขคำศัพท์
 
