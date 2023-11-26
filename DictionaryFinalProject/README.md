@@ -24,11 +24,11 @@ class นี้จะเป็นตัว algorithm ในการทำงา
 **previous** จะค่าหาค่าที่น้อยกว่าค่าของตัวเอง แต่มากที่สุดของ Node เพื่อค้นหาค่าของ key ที่อยู่ก่อนหน้าจาก key ที่ต้องการ
 
 ## คำสั่ง command-line
-1. Add a new word
-2. Find a word
-3. Update a word
-4. Delete a word
-5. Display all words
-6. Find next word
-7. Find previous word
-8. Exit
+กด 1. Add a new word 
+กด 2. Find a word
+กด 3. Update a word
+กด 4. Delete a word
+กด 5. Display all words
+กด 6. Find next word
+กด 7. Find previous word
+กด 8. Exit
