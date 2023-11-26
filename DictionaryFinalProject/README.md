@@ -97,6 +97,13 @@ write (verb): เขียน
 | Word deleted successfully.           |
 
 กด 5. Display all words : แสดงคำศัพท์ทั้งหมด
+|---------------------------------|
+| Enter choice: 5                 |
+| apple (noun): แอปเปิ้ล            |
+| banana (noun): กล้วย             |
+| beautiful (adjective): สวย      |
+| book (noun): หนังสือ              |
+| cold (adjective): หนาว          |
 
 กด 6. Find next word : ค้นหาคำศัพที่อยู่ถัดไป เช่น คำศัพท์ถัดไปของ hello คือ hope
 
