@@ -25,10 +25,17 @@ class นี้จะเป็นตัว algorithm ในการทำงา
 
 ## คำสั่ง command-line
 กด 1. Add a new word 
+
 กด 2. Find a word
+
 กด 3. Update a word
+
 กด 4. Delete a word
+
 กด 5. Display all words
+
 กด 6. Find next word
+
 กด 7. Find previous word
+
 กด 8. Exit
