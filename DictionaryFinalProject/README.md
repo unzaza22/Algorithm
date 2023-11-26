@@ -91,6 +91,10 @@ write (verb): เขียน
 | Word updated successfully.                             |
 
 กด 4. Delete a word : ลบคำศัพท์
+|--------------------------------------|
+| Enter choice: 4                      |
+| Enter English word to delete: rabbit |
+| Word deleted successfully.           |
 
 กด 5. Display all words : แสดงคำศัพท์ทั้งหมด
 
