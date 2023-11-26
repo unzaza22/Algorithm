@@ -1,3 +1,4 @@
+# ไฟล์ที่ส่ง Final คือ DictionaryBST
 # class Word
 class นี้มีไว้เก็บคำศัพท์ เพื่อส่งข้อมูลคำศัพท์
 
