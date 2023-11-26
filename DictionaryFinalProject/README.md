@@ -6,3 +6,7 @@
 
 # class TreeNode
 ###### class นี้สร้างไว้เพื่อกำหนด key ของคำศัพท์และอยู่ Node ทางซ้ายหรือทางขวา
+
+# class BinarySearchTree
+###### class นี้จะเป็นตัว algorithm ในการทำงานของ BST
+###### **insert** 
