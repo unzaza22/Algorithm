@@ -23,6 +23,28 @@ class นี้จะเป็นตัว algorithm ในการทำงา
 
 **previous** จะค่าหาค่าที่น้อยกว่าค่าของตัวเอง แต่มากที่สุดของ Node เพื่อค้นหาค่าของ key ที่อยู่ก่อนหน้าจาก key ที่ต้องการ
 
+## คำศัพท์เริ่มต้นของ program
+apple (noun): แอปเปิ้ล
+banana (noun): กล้วย
+beautiful (adjective): สวย
+book (noun): หนังสือ
+cold (adjective): หนาว
+eat (verb): กิน
+fast (adjective): เร็ว
+friend (noun): เพื่อน
+happy (adjective): มีความสุข
+hello (interjection): สวัสดี
+hope (noun): ความหวัง
+joy (noun): ความสุข
+love (noun): ความรัก
+peace (noun): สันติภาพ
+play (verb): เล่น
+run (verb): วิ่ง
+study (verb): เรียน
+walk (verb): เดิน
+warm (adjective): อบอุ่น
+write (verb): เขียน
+
 ## คำสั่ง command-line
 กด 1. Add a new word : เพิ่มคำศัพท์
 
